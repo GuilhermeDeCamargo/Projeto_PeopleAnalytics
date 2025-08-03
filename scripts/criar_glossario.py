@@ -41,6 +41,7 @@ dados_glossario = [
 ]
 
 df_glossario = pd.DataFrame(dados_glossario, columns=["coluna_tabela", "tipo", "descricao", "observacoes"])
+df_glossario = df_glossario.sort_values(by="coluna_tabela")
 
 # Salvar como arquivo markdown
 df_glossario.to_markdown(path_salvar, index=False)
