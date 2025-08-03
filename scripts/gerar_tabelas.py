@@ -41,7 +41,7 @@ df_origem['overtime_hours'] = df_origem['overtime_hours'].astype('float64')
 df_origem['tardiness_count'] = df_origem['tardiness_count'].astype('Int64')
 df_origem['number_of_dependents'] = df_origem['number_of_dependents'].astype('Int64')
 df_origem['performance_rating'] = df_origem['performance_rating'].astype('Int64')
-df_origem['bonus_percentage'] = df_origem['bonus_percentage'].astype('float64')
+df_origem['bonus_percentage'] = df_origem['bonus_percentage'].astype('float64')/100
 df_origem['tenure_years'] = df_origem['tenure_years'].astype('float64')
 df_origem['probation_completed'] = df_origem['probation_completed'].astype('bool')
 df_origem['last_promotion_date'] = pd.to_datetime(df_origem['last_promotion_date'], errors='coerce')
