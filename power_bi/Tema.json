@@ -1,0 +1,42 @@
+{
+    "name": "Tema Dasa",
+    "dataColors": [
+        "#02103F",
+        "#0C42F9",
+        "#A7E1FF",
+        "#FC503C",
+        "#CEB189",
+        "#C990C9",
+        "#81559A",
+        "#9E76B4"
+    ],
+    "good":"#0C42F9",
+    "neutral":"#CEB189",
+    "bad":"#FC503C",
+    "maximum": "#02103F",
+    "center": "#0C42F9",
+    "minimum": "#A7E1FF",
+    "null": "#CEB189",
+    "textClasses": {
+        "callout": {
+            "fontSize": 11,
+            "fontFace": "Segoe UI",
+            "color": "#FFFFFF"
+        },
+        "title": {
+            "fontSize": 11,
+            "fontFace": "Segoe UI",
+            "color": "#FFFFFF"
+        },
+        "header": {
+            "fontSize": 11,
+            "fontFace": "Segoe UI",
+            "color": "#FFFFFF"
+        },
+        "label": {
+            "fontSize": 11,
+            "fontFace": "Segoe UI",
+            "color": "#FFFFFF"
+        }
+    }
+}
