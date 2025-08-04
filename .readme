@@ -1,0 +1,29 @@
+# Case Técnico - People Analytics
+
+Repositório contém a solução do case sobre dados de Recursos Humanos e possui:
+
+- Documentação
+- Versionamento de Código Python
+- Análise de Dados em Power BI
+
+## Estrutura
+
+`dados/`                        -> Contém a base original e os dados tratados (fato/dimensões).
+`scripts/`                      -> Scripts Python usados para gerar tabelas e glossário.
+`power_bi/dashboard_rh.pbix`    -> Dashboard final em Power BI com insights.
+`apresentacao/apresentacao.pdf` -> Slides da apresentação com resultados e storytelling.
+`glossario.md`                  -> Glossário com tipos, erros e normalizações da base.
+`documentacao.md`               -> Documentação com explicações de cada etapa e decisão técnica.
+
+## Como executar
+
+1. Clone este repositório:
+
+git clone https://github.com/GuilhermeDeCamargo/Projeto_PeopleAnalytics.git
+
+2. Execute os scripts:
+
+python scripts/generate_glossary.py
+python scripts/split_base_fato_dimensao.py
+
+3. Abra o arquivo dashboard_rh.pbix no Power BI Desktop e atualize as bases.
